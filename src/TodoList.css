@@ -1,0 +1,43 @@
+.todolist {
+  background-color: transparent;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 0.5rem;
+  /* border: 1px solid white; */
+}
+
+.todolist > div > span {
+  cursor: pointer;
+}
+
+.todolist > div {
+  display: flex;
+  align-items: center;
+}
+
+.todolist > div > input[type="checkbox"] {
+  /* margin: 0.2rem; */
+  display: inline-block;
+  margin-right: 0.5rem;
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.todolist > button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+
+.lineScratch {
+  text-decoration: line-through 2px solid rgb(255, 255, 255);
+}
